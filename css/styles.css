@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  background: #393e46;
+  color: #00adb5;
+}
+
+#gstamt {
+  display: none;
+}
+
+#pregst {
+  display: none;
+}
+
+.mydiv {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.btn-space {
+    margin-right: 1rem;
+}
+
+.footer-txt {
+  font-size: 1rem;
+}
+
+/* When the text is emptu handle error exception
+Add a radio button to select Inclusive / Exclusive of GST */
