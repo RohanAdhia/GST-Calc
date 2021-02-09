@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Margin Calculator</title>
+  <link rel="icon" type="image" href="favicon\logo.png">
+  <!-- Bootstrap CSS Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <!-- Custom External CSS File Link -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container-fluid mydiv">
+    <h1 class="display-3">Margin Calculator</h1>
+    <br>
+    <div>
+      <label for="cp" class="form-label"><b>Cost Price : &nbsp&nbsp&nbsp</b></label>
+      <input type="number" class="form-lg" min="1" id="cp" name="cp" oninput="hideBtn()" placeholder="Enter the Cost Price" required autofocus>
+    </div>
+
+    <div>
+      <label for="sp" class="form-label"><b>Selling Price : </b></label>
+      <input type="number" class="form-lg" min="0" id="sp" name="sp" oninput="hideBtn()" placeholder="Enter the Selling Price" required autofocus>
+    </div>
+    <br>
+    <input type="button" value="Calculate" id="btn" disabled class="btn btn-outline-info btn-lg btn-space">
+    <input type="button" value="Clear" id="btn_clear" class="btn btn-outline-warning btn-lg">
+    <br><br>
+    <a href="index.html">GST Calculator</a>
+    <br><br>
+    <h3 id="pl"></h3>
+    <h3 id="per"></h3>
+    <code class="footer-txt">Made with ❤️ by Rohan Adhia</code>
+  </div>
+  <!-- Bootstrap JS File Link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <!-- Custom JS File -->
+  <script src="js/margin.js" charset="utf-8"></script>
+</body>
+
+</html>
